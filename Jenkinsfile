@@ -4,7 +4,7 @@ pipeline {
     }
 
     environment {
-        PROJECT_NAME = 'mail_app'
+        PROJECT_NAME = 'mmtnc_project'
         PROJECT_PATH = "${WORKSPACE}"
         PROJECT_PORT = '3000'
         USERNAME = '22120207'

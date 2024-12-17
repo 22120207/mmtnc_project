@@ -18,6 +18,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
+                    sh "rm -rf ${PROJECT_NAME}"
                     sh "git clone ${GIT_URL}"
                 }
             }

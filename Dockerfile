@@ -1,5 +1,5 @@
-FROM python:3.7-alpine AS builder
-EXPOSE 8000
+FROM python:3.7-alpine
+EXPOSE 3000
 WORKDIR /app 
 COPY requirements.txt /app
 RUN pip install -r requirements.txt --no-cache-dir --user
